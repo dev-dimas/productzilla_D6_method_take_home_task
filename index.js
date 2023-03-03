@@ -1,182 +1,182 @@
 let namaDepan,
-	namaTengah,
-	namaBelakang,
-	tanggalLahir,
-	bulanLahir,
-	tahunLahir,
-	tempatLahir,
-	umur,
-	agama,
-	asalKampus,
-	asalFakultas,
-	asalProdi,
-	semester,
-	ipk,
-	sksKumulatif,
-	alamatRumah,
-	kodePos,
-	nomorTelepon,
-	email,
-	isWNI;
+  namaTengah,
+  namaBelakang,
+  tanggalLahir,
+  bulanLahir,
+  tahunLahir,
+  tempatLahir,
+  umur,
+  agama,
+  asalKampus,
+  asalFakultas,
+  asalProdi,
+  semester,
+  ipk,
+  sksKumulatif,
+  alamatRumah,
+  kodePos,
+  nomorTelepon,
+  email,
+  isWNI;
 
 const setNamaDepan = (argNamaDepan) => {
-	namaDepan = argNamaDepan;
+  namaDepan = argNamaDepan;
 };
 
 const setNamaTengah = (argNamaTengah) => {
-	namaTengah = argNamaTengah;
+  namaTengah = argNamaTengah;
 };
 
 const setNamaBelakang = (argNamaBelakang) => {
-	namaBelakang = argNamaBelakang;
+  namaBelakang = argNamaBelakang;
 };
 
 const setTanggalLahir = (argTanggalLahir) => {
-	tanggalLahir = argTanggalLahir;
+  tanggalLahir = argTanggalLahir;
 };
 
 const setBulanLahir = (argBulanLahir) => {
-	bulanLahir = argBulanLahir;
+  bulanLahir = argBulanLahir;
 };
 
 const setTahunLahir = (argTahunLahir) => {
-	tahunLahir = argTahunLahir;
+  tahunLahir = argTahunLahir;
 };
 
 const setTempatLahir = (argTempatLahir) => {
-	tempatLahir = argTempatLahir;
+  tempatLahir = argTempatLahir;
 };
 
 const setUmur = (argUmur) => {
-	umur = argUmur;
+  umur = argUmur;
 };
 
 const setAgama = (argAgama) => {
-	agama = argAgama;
+  agama = argAgama;
 };
 
 const setAsalKampus = (argAsalKampus) => {
-	asalKampus = argAsalKampus;
+  asalKampus = argAsalKampus;
 };
 
 const setAsalFakultas = (argAsalFakultas) => {
-	asalFakultas = argAsalFakultas;
+  asalFakultas = argAsalFakultas;
 };
 
 const setAsalProdi = (argAsalProdi) => {
-	asalProdi = argAsalProdi;
+  asalProdi = argAsalProdi;
 };
 
 const setSemester = (argSemester) => {
-	semester = argSemester;
+  semester = argSemester;
 };
 
 const setIpk = (argIpk) => {
-	ipk = argIpk;
+  ipk = argIpk;
 };
 
 const setSksKumulatif = (argSksKumulatif) => {
-	sksKumulatif = argSksKumulatif;
+  sksKumulatif = argSksKumulatif;
 };
 
 const setAlamatRumah = (argAlamatRumah) => {
-	alamatRumah = argAlamatRumah;
+  alamatRumah = argAlamatRumah;
 };
 
 const setKodePos = (argKodePos) => {
-	kodePos = argKodePos;
+  kodePos = argKodePos;
 };
 
 const setNomorTelepon = (argNomorTelepon) => {
-	nomorTelepon = argNomorTelepon;
+  nomorTelepon = argNomorTelepon;
 };
 
 const setEmail = (argEmail) => {
-	email = argEmail;
+  email = argEmail;
 };
 
 const setIsWNI = (argIsWNI) => {
-	isWNI = argIsWNI;
+  isWNI = argIsWNI;
 };
 
 const getNamaDepan = () => {
-	return namaDepan;
+  return namaDepan;
 };
 
 const getNamaTengah = () => {
-	return namaTengah;
+  return namaTengah;
 };
 
 const getNamaBelakang = () => {
-	return namaBelakang;
+  return namaBelakang;
 };
 
 const getTanggalLahir = () => {
-	return tanggalLahir;
+  return tanggalLahir;
 };
 
 const getBulanLahir = () => {
-	return bulanLahir;
+  return bulanLahir;
 };
 
 const getTahunLahir = () => {
-	return tahunLahir;
+  return tahunLahir;
 };
 
 const getTempatLahir = () => {
-	return tempatLahir;
+  return tempatLahir;
 };
 
 const getUmur = () => {
-	return umur;
+  return umur;
 };
 
 const getAgama = () => {
-	return agama;
+  return agama;
 };
 
 const getAsalKampus = () => {
-	return asalKampus;
+  return asalKampus;
 };
 
 const getAsalFakultas = () => {
-	return asalFakultas;
+  return asalFakultas;
 };
 
 const getAsalProdi = () => {
-	return asalProdi;
+  return asalProdi;
 };
 
 const getSemester = () => {
-	return semester;
+  return semester;
 };
 
 const getIpk = () => {
-	return ipk;
+  return ipk;
 };
 
 const getSksKumulatif = () => {
-	return sksKumulatif;
+  return sksKumulatif;
 };
 
 const getAlamatRumah = () => {
-	return alamatRumah;
+  return alamatRumah;
 };
 
 const getKodePos = () => {
-	return kodePos;
+  return kodePos;
 };
 
 const getNomorTelepon = () => {
-	return nomorTelepon;
+  return nomorTelepon;
 };
 
 const getEmail = () => {
-	return email;
+  return email;
 };
 
 const getIsWNI = () => {
-	return isWNI;
+  return isWNI;
 };
 
 setNamaDepan('Dimas');
